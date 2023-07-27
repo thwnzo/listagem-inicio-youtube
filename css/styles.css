@@ -1,0 +1,158 @@
+@import url(./root.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: var(--cor-padrao);
+    overflow-y: scroll;
+}
+
+header {
+    position: relative;
+
+}
+
+input {
+    width: 500px;
+    height: 31px;
+    padding: 4px 25px;
+    font-size: 16px;
+    border-radius: 50px 0px 0px 50px;
+    border: .5px solid #2f2f2f4e;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form button {
+    border-radius: 0px 50px 50px 0px;
+    height: 40px;
+    width: 70px;
+    padding-top: 3px;
+    border: .5px solid #2f2f2f4e;
+    border-left: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+main {
+    background-color: #F9F9F9;
+    display: flex;
+}
+
+nav {
+    width: 180px;
+    height: 100vh;
+    padding: 24px;
+    background-color: white;
+}
+
+#foto-perfil {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.sec-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+#img-svg {
+    width: 100px;
+    margin-left: 30px;
+}
+
+.menu-logo {
+    margin-left: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.ul-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#inicio {
+    font-weight: 700;
+    background-color: #efefef;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.area-de-menu-nav {
+    display: grid;
+}
+
+.menu-navegacao {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 260px);
+    margin: 30px 0px 30px 20px;
+    gap: 5px;
+}
+
+.img-videos {
+    border-radius: 12px;
+}
+
+.conteudo-videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 20px 0px 20px 0px;
+    border-radius: 12px;
+}
+
+.titulo-dos-videos {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.vizualizacoes-video {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.todo-conteudo-video {
+    display: flex;
+    width: 250px;
+    gap: 10px;
+    margin-top: 6px;
+}
+
+.conteudo-abaixo-do-video {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
