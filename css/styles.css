@@ -156,3 +156,10 @@ nav {
     flex-direction: column;
     gap: 10px;
 }
+
+@media screen and (max-width:720px) {
+
+    section {
+        background-color: lightblue;
+    }
+}
